@@ -14,6 +14,7 @@ public class DuplicateWord {
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
 
         int count;
+        //int sum = 0;
 
         String st2 = st.toLowerCase();
 
@@ -29,12 +30,11 @@ public class DuplicateWord {
                 }
             }
 
-            if (count > 1 && words[i] != "0")
-                System.out.println(words[i] + ": " + count + " times");
-        }
+                if (count > 1 && words[i] != "0")
+                    System.out.println(words[i] + ": " + count + " times");
+            }
 
-    }
+        }}
 
 
-}
 
