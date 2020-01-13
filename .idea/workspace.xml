@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Pattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
+  <component name="RunManager" selected="Application.Pattern">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -141,9 +142,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.FindMissingNumber" />
-        <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.MakePyramid" />
         <item itemvalue="Application.DuplicateWord" />
       </list>
@@ -183,22 +184,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578847584046" />
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1578937686120">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1578942415821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
-    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1578937686120">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578942415821" />
+    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1578942415821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
-    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1578937686120">
+    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578942415821" />
+    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1578942415821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
-    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1578937686120">
+    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578942415821" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1578942415821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578942415821" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1578933424063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
