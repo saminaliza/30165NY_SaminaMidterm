@@ -9,13 +9,11 @@ public class Pattern {
          *
          */
 
-        for (int i = 100; i >= 1; i--) {
-            //i = i - 1;
-            {
+        for (int i = 100; i >= 90; i--) {
                 System.out.print(i + ", ");
             }
         }
 
     }
-}
+
 
