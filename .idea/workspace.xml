@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMissingNumber">
+  <component name="RunManager" selected="Application.PrimeNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -48,20 +47,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Fibonacci" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +96,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.PrimeNumber" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -135,18 +134,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DuplicateWord" />
-      <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.MakePyramid" />
       <item itemvalue="Application.Pattern" />
       <item itemvalue="Application.FindMissingNumber" />
+      <item itemvalue="Application.PrimeNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.MakePyramid" />
         <item itemvalue="Application.DuplicateWord" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -184,22 +183,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578847584046" />
-    <state width="649" height="200" key="GridCell.Tab.0.bottom" timestamp="1578935920511">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1578937686120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578935920511" />
-    <state width="649" height="200" key="GridCell.Tab.0.center" timestamp="1578935920511">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
+    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1578937686120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578935920511" />
-    <state width="649" height="200" key="GridCell.Tab.0.left" timestamp="1578935920511">
+    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
+    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1578937686120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578935920511" />
-    <state width="649" height="200" key="GridCell.Tab.0.right" timestamp="1578935920511">
+    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1578937686120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578935920511" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578937686120" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1578933424063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
