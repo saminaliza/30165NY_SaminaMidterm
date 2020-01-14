@@ -20,12 +20,14 @@ public class Pattern {
                 i = i - 2;
                 System.out.print(i + ", ");
 
-            }else{
+            } else {
                 i = i - 3;
                 System.out.print(i + ", ");
 
-        }
+            }
 
-    }}}
+        }
+    }
+}
 
 
