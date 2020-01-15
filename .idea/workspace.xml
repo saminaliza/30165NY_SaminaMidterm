@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataReader">
+  <component name="RunManager" selected="TestNG.UnitTestingEmployeeInfo.testCalculateSalary">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -54,13 +56,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.PrimeNumber" />
+    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,17 +83,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestingMath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTestingEmployeeInfo.testCalculateSalary" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CodingExamJuly2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="math.problems" />
-      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="design" />
+      <option name="MAIN_CLASS_NAME" value="design.UnitTestingEmployeeInfo" />
+      <option name="METHOD_NAME" value="testCalculateSalary" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
       <listeners />
@@ -146,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrimeNumber" />
-      <item itemvalue="TestNG.UnitTestingMath" />
       <item itemvalue="TestNG.UnitTestingStringProblem.testNegativeIsPalindrome" />
       <item itemvalue="TestNG.UnitTestingStringProblem" />
       <item itemvalue="Application.DataReader" />
+      <item itemvalue="Application.FortuneEmployee" />
+      <item itemvalue="TestNG.UnitTestingEmployeeInfo.testCalculateSalary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UnitTestingEmployeeInfo.testCalculateSalary" />
+        <item itemvalue="Application.FortuneEmployee" />
         <item itemvalue="Application.DataReader" />
         <item itemvalue="TestNG.UnitTestingStringProblem" />
         <item itemvalue="TestNG.UnitTestingStringProblem.testNegativeIsPalindrome" />
-        <item itemvalue="TestNG.UnitTestingMath" />
-        <item itemvalue="Application.PrimeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -196,22 +199,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579023979491" />
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1579125518258">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1579129426103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579125518258" />
-    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1579125518258">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579129426103" />
+    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1579129426103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579125518258" />
-    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1579125518258">
+    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579129426103" />
+    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1579129426103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579125518258" />
-    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1579125518258">
+    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579129426103" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1579129426103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579125518258" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579129426103" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1579024118182">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -246,6 +249,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MidtermJuly2019$FortuneEmployee.ic" NAME="FortuneEmployee Coverage Results" MODIFIED="1579129167771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>design.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>

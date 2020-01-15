@@ -21,7 +21,10 @@ public class EmployeeInfo {
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
-	
+	static int employeeId;
+	private String employeeName;
+	private String employeeDepartment;
+	public int employeeSalary;
 	/*
 	 * You must implement the logic for below 2 methods and 
 	 * following 2 methods are prototype as well for other methods need to be design,
@@ -32,11 +35,13 @@ public class EmployeeInfo {
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
+	public EmployeeInfo() {}
 	public EmployeeInfo(int employeeId){
-		
+		EmployeeInfo.employeeId = employeeId;
 	}
     public EmployeeInfo(String name, int employeeId){
-		
+		this.employeeName = name;
+		EmployeeInfo.employeeId = employeeId;
 	}
 	
 	/*
@@ -58,7 +63,7 @@ public class EmployeeInfo {
 	 * Hints: pension will be 5% of the salary for 1 year, 10% for 2 years with the company and so on.
 	 * 
 	 */
-	public static int calculateEmployeePension(){
+	public int calculateEmployeePension(){
 		int total=0;
 		Scanner sc  = new Scanner(System.in);
 		System.out.println("Please enter start date in format (example: May,2015): ");
@@ -69,8 +74,13 @@ public class EmployeeInfo {
         String convertedTodaysDate = DateConversion.convertDate(todaysDate);
 
         //implement numbers of year from above two dates
+		int numberOfYears = Integer.valueOf(convertedTodaysDate.split("/")[1]) -
+				Integer.valueOf(convertedJoiningDate.split("/")[1]);
+
 		//Calculate pension
 
+		for(int i = 1; i <= numberOfYears; i++)
+			total += calculateSalary() * 0.05 * i;
 
 
 		return total;
@@ -133,5 +143,59 @@ public class EmployeeInfo {
 			return date;
 
 		}
+	}
+	public void setEmployeeId(int employeeId) {
+
+		this.employeeId = employeeId;
+	}
+
+	public int employeeId() {
+
+		return this.employeeId;
+	}
+
+	public void setEmployeeName(String employeeName) {
+
+		this.employeeName = employeeName;
+	}
+
+	public String employeeName() {
+
+		return this.employeeName;
+	}
+
+	public void assignDepartment(String department) {
+
+		this.employeeDepartment = department;
+	}
+
+
+	public String getEmployeeDepartment() {
+
+		return this.employeeDepartment;
+	}
+
+	public void setEmployeeSalary(int employeeSalary) {
+
+		this.employeeSalary = employeeSalary;
+	}
+
+	public int calculateSalary() {
+
+		return this.employeeSalary;
+	}
+
+	public void benefitLayout() {
+
+	}
+
+	static void setCompanyName(String companyName) {
+
+		EmployeeInfo.companyName = companyName;
+	}
+
+	String getCompanyName() {
+
+		return EmployeeInfo.companyName;
 	}
 }
