@@ -7,16 +7,16 @@ public class UnitTestingMath {
 
     @Test
     public void testPositiveFindFactorial() {
-        long expectedResult = 120;
-        long actualResult = Factorial.findFactorial(5);
+        int expectedResult = 120;
+        int actualResult = Factorial.findFactorial(5);
         Assert.assertEquals(expectedResult, actualResult);
 
     }
 
     @Test
     public void testNegativeFindFactorial() {
-        long expectedResult = 123;
-        long actualResult = Factorial.findFactorial(5);
+        int expectedResult = 123;
+        int actualResult = Factorial.findFactorial(5);
         Assert.assertEquals(expectedResult, actualResult);
     }
 
