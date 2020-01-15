@@ -12,34 +12,30 @@ public class FindLowestDifference {
         int[] array1 = {30, 12, 5, 9, 2, 20, 33, 1};
         int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19};
 
-        minDiffElements(array1, array2);
-    }
+        int smallestDifferenceArray1 = findLowestDifference(array1);
 
-    private static void minDiffElements(int[] array1, int[] array2) {
-    }
+        System.out.println("\n" + "The lowest difference between array1 cells is:" + " " + smallestDifferenceArray1);
 
-    public static int lowestDiffOfArray () {
-            int [] array1 = {30,12,5,9,2,20,33,1};
-            int [] array2 = {18,25,41,47,17,36,14,19};
-            lowestDiffOfArray();
+        int smallestDifferenceArray2 = findLowestDifference(array2);
 
-
-            int lowest = array1[0];
-            for(int i=0; i<array1.length; i++){
-
-                for(int j=0;j<array2.length; j++){
-
-                    int diff = Math.abs(array1[i]-array2[j]);
-                    if(diff<lowest)
-                    { lowest = diff;
-                    }
-                }
-            }
-
-            return lowest;
+        System.out.println("\n" + "The lowest difference between array2 cells is:" + " " + smallestDifferenceArray2);
+        if (smallestDifferenceArray1 < smallestDifferenceArray2) {
+            System.out.println("The lowest difference between array cells is" + " " + smallestDifferenceArray1);
+        } else {
+            System.out.println("The lowest difference between array cells is" + " " + smallestDifferenceArray1);
         }
+    }
+
+    public static int findLowestDifference(int array[]) {
+        int lowest;
+        Arrays.sort(array);
+        lowest = array[1] - array[0];
+        return lowest;
 
     }
+
+
+}
 
 
 

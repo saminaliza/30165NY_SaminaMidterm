@@ -4,8 +4,8 @@
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +38,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionView">
+  <component name="RunManager" selected="TestNG.UnitTestingStringProblem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="CollectionView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.CollectionView" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="FindLowestDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.problems.FindLowestDifference" />
@@ -70,36 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.LowestNumber" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Numbers" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Pattern" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.PrimeNumber" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -125,6 +83,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnitTestingMath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.problems" />
+      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestingStringProblem" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.problems" />
+      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestingStringProblem.testNegativeIsPalindrome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.problems" />
+      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
+      <option name="METHOD_NAME" value="testNegativeIsPalindrome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -135,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LowestNumber" />
-      <item itemvalue="Application.Pattern" />
       <item itemvalue="Application.FindLowestDifference" />
-      <item itemvalue="Application.Numbers" />
-      <item itemvalue="Application.CollectionView" />
+      <item itemvalue="Application.PrimeNumber" />
+      <item itemvalue="TestNG.UnitTestingMath" />
+      <item itemvalue="TestNG.UnitTestingStringProblem.testNegativeIsPalindrome" />
+      <item itemvalue="TestNG.UnitTestingStringProblem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionView" />
-        <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.LowestNumber" />
+        <item itemvalue="TestNG.UnitTestingStringProblem" />
+        <item itemvalue="TestNG.UnitTestingStringProblem.testNegativeIsPalindrome" />
+        <item itemvalue="TestNG.UnitTestingMath" />
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.FindLowestDifference" />
-        <item itemvalue="Application.Pattern" />
       </list>
     </recent_temporary>
   </component>
@@ -185,22 +198,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579023979491" />
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1579121409034">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1579123970916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579121409034" />
-    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1579121409034">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579123970916" />
+    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1579123970916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579121409034" />
-    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1579121409034">
+    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579123970916" />
+    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1579123970916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579121409034" />
-    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1579121409034">
+    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579123970916" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1579123970916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579121409034" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579123970916" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1579024118182">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -221,6 +234,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579021233223" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1579124652584">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1579124652584" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
