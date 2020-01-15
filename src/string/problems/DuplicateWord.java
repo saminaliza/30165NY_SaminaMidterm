@@ -30,11 +30,12 @@ public class DuplicateWord {
                 }
             }
 
-                if (count > 1 && words[i] != "0")
-                    System.out.println(words[i] + ": " + count + " times");
-            }
+            if (count > 1 && words[i] != "0")
+                System.out.println(words[i] + ": " + count + " times");
+        }
 
-        }}
+    }
+}
 
 
 
