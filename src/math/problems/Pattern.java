@@ -10,6 +10,7 @@ public class Pattern {
          */
 
         for (int i = 100; i >= 1; i--) {
+
             if (i >= 90 && i <= 100) {
                 System.out.print(i + ", ");
             } else if (i > 70 && i < 90) {

@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class CollectionView {
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
         /*
          Map is created and inserted some data.Retrieve the Collection view of values present in map
          */
@@ -18,8 +18,11 @@ public static void main(String[] args) {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
+        for (String values : map.values()) {
+            System.out.println(values);
 
+
+        }
 
     }
-
 }
