@@ -5,19 +5,7 @@ import org.testng.annotations.Test;
 
 public class UnitTestingStringProblem {
         //Apply Unit Test into all the methods in this package.
-//        @Test
-//        public void testPositiveIsAnagram() {
-//            boolean ExpectedResult = true;
-//            boolean ActualResult = Anagram.areAnagram("ARMY", "MARY");
-//            Assert.assertEquals(ExpectedResult, ActualResult);
-//        }
-//
-//    @Test
-//    public void testNegativeIsAnagram() {
-//        boolean ExpectedResult = false;
-//        boolean ActualResult = Anagram.areAnagram("ARMY", "MARY");
-//        Assert.assertEquals(ExpectedResult, ActualResult);
-//    }
+
 
     @Test
     public void testPositiveIsPalindrome() {
