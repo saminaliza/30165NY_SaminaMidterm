@@ -7,8 +7,8 @@ import static org.testng.AssertJUnit.assertEquals;
 
 public class UnitTestingEmployeeInfo {
 
-        //Write Unit Test for all the methods has been implemented in this package.
-        private EmployeeInfo employeeInfo;
+    //Write Unit Test for all the methods has been implemented in this package.
+    private EmployeeInfo employeeInfo;
 
     @BeforeTest
     public void initTest() {
@@ -16,11 +16,10 @@ public class UnitTestingEmployeeInfo {
         employeeInfo = new EmployeeInfo();
 
         employeeInfo.setEmployeeName("John Doe");
-        employeeInfo.setEmployeeId(12345);
-        employeeInfo.assignDepartment("Human Resources");
+        employeeInfo.setEmployeeId(001);
         EmployeeInfo.setCompanyName("Google");
-        employeeInfo.setEmployeeSalary(120000);
     }
+
     @Test
     public void testEmployeeName() {
 
@@ -35,12 +34,6 @@ public class UnitTestingEmployeeInfo {
         assertEquals(12345, employeeInfo.employeeId());
     }
 
-    @Test
-    public void testEmployeeDepartment() {
-
-        System.out.println("Testing getEmployeeDepartment()");
-        assertEquals("Human Resources", employeeInfo.getEmployeeDepartment());
-    }
 
     @Test
     public void testCompanyName() {
@@ -49,10 +42,10 @@ public class UnitTestingEmployeeInfo {
         assertEquals("Google", employeeInfo.getCompanyName());
     }
 
-    @Test
-    public void testCalculateSalary() {
-
-        System.out.println("Testing calculateSalary()");
-        assertEquals(120000, employeeInfo.calculateSalary());
-    }
+//    @Test
+//    public void testCalculateSalary() {
+//
+//        System.out.println("Testing calculateSalary()");
+//        assertEquals(120000, employeeInfo.calculateSalary());
+//    }
 }
