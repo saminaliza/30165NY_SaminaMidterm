@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/JavaSelfPractice" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -49,7 +50,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CnnAPI">
+  <component name="RunManager" selected="Application.CsvReader">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -60,6 +61,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="json.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codelab.status.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,25 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestingEmployeeInfo.testEmployeeId" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CodingExamJuly2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="design" />
-      <option name="MAIN_CLASS_NAME" value="design.UnitTestingEmployeeInfo" />
-      <option name="METHOD_NAME" value="testEmployeeId" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -156,18 +152,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DataReader" />
-      <item itemvalue="TestNG.UnitTestingEmployeeInfo.testEmployeeId" />
       <item itemvalue="Application.FortuneEmployee" />
-      <item itemvalue="TestNG.UnitTestingEmployeeInfo (1)" />
       <item itemvalue="Application.CnnAPI" />
+      <item itemvalue="TestNG.UnitTestingEmployeeInfo (1)" />
+      <item itemvalue="Application.CsvReader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.CnnAPI" />
         <item itemvalue="TestNG.UnitTestingEmployeeInfo (1)" />
         <item itemvalue="Application.FortuneEmployee" />
         <item itemvalue="Application.DataReader" />
-        <item itemvalue="TestNG.UnitTestingEmployeeInfo.testEmployeeId" />
       </list>
     </recent_temporary>
   </component>
@@ -217,22 +213,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579023979491" />
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1579213453045">
+    <state width="1323" height="67" key="GridCell.Tab.0.bottom" timestamp="1579214073722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579213453045" />
-    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1579213453045">
+    <state width="1323" height="67" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579214073722" />
+    <state width="1323" height="67" key="GridCell.Tab.0.center" timestamp="1579214073722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579213453045" />
-    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1579213453045">
+    <state width="1323" height="67" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579214073722" />
+    <state width="1323" height="67" key="GridCell.Tab.0.left" timestamp="1579214073722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579213453045" />
-    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1579213453045">
+    <state width="1323" height="67" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579214073722" />
+    <state width="1323" height="67" key="GridCell.Tab.0.right" timestamp="1579214073722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579213453045" />
+    <state width="1323" height="67" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579214073722" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1579156755501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -249,10 +245,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1579156755501" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1579196614611">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1579255164382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579196614611" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579255164382" />
     <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1579124652584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

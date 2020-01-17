@@ -63,6 +63,16 @@ public class CsvReader {
             }
         }
 
+//        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8);
+//        double sum = 0;
+//        for (int i : list) {
+//            sum += i;
+//        }
+//        double average = sum / list.size();
+//
+//        System.out.println("Average = " + average);
     }
 
-}
+    }
+
+
