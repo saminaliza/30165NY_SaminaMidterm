@@ -17,31 +17,7 @@ public class UseArrayList {
          * Store all the sorted data into one of the databases.
          *
          */
-        String url = "jdbc:mysql://localhost:3306/midterm?serverTimezone=UTC";
-        String user = "samin";
-        String password = "sam10cked";
-
-        Connection connection = null;
-        Statement statement = null;
-        try {
-            connection = DriverManager.getConnection(url, user, password);
-
-            statement = (Statement) connection.createStatement();
-
-            String query = "insert into useArrayList (id, method_used, data_set, result_set) values (01, 'add', " +
-                    "'ArrayList<String> myList', 'str'));";
-
-            statement.execute(query);
-
-
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-            System.out.println("Something might have went wrong with connection");
-        } finally {
-            ((java.sql.Statement) statement).close();
-            connection.close();
-        }
-
+        connectToMySQL();
 
         ArrayList<String> myList = new ArrayList<>();
 
@@ -70,4 +46,32 @@ public class UseArrayList {
         }
 
     }
+    public static void connectToMySQL () throws SQLException {
+        String url = "jdbc:mysql://localhost:3306/midterm?serverTimezone=UTC";
+        String user = "samin";
+        String password = "sam10cked";
+
+        Connection connection = null;
+        Statement statement = null;
+        try {
+            connection = DriverManager.getConnection(url, user, password);
+
+            statement = (Statement) connection.createStatement();
+
+            String query = "insert into useArrayList (id, method_used, data_set, result_set) values (01, 'add', 'ArrayList<String> myList', 'str');";
+            ResultSet resultSet = statement.execute(query);
+            //statement.execute(query);
+            System.out.println("query added");
+
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+            System.out.println("Something might have went wrong with connection");
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            ((java.sql.Statement) statement).close();
+            connection.close();
+        }
+    }
+
 }
