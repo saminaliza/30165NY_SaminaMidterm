@@ -1,10 +1,6 @@
 package datastructure;
 
-import java.beans.Statement;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -56,10 +52,10 @@ public class UseArrayList {
         try {
             connection = DriverManager.getConnection(url, user, password);
 
-            statement = (Statement) connection.createStatement();
+            statement = connection.createStatement();
 
             String query = "insert into useArrayList (id, method_used, data_set, result_set) values (01, 'add', 'ArrayList<String> myList', 'str');";
-            ResultSet resultSet = statement.execute(query);
+             statement.execute(query);
             //statement.execute(query);
             System.out.println("query added");
 
