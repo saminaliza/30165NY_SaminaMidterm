@@ -1,17 +1,47 @@
 package datastructure;
 
+import java.beans.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class UseArrayList {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         /*
          * Demonstrate how to use ArrayList that includes add,peek,remove,retrieve elements.
          * Use For Each loop and while loop with Iterator to retrieve data.
          * Store all the sorted data into one of the databases.
          *
          */
+        String url = "jdbc:mysql://localhost:3306/midterm?serverTimezone=UTC";
+        String user = "samin";
+        String password = "sam10cked";
+
+        Connection connection = null;
+        Statement statement = null;
+        try {
+            connection = DriverManager.getConnection(url, user, password);
+
+            statement = (Statement) connection.createStatement();
+
+            String query = "insert into useArrayList (id, method_used, data_set, result_set) values (01, 'add', " +
+                    "'ArrayList<String> myList', 'str'));";
+
+            statement.execute(query);
+
+
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+            System.out.println("Something might have went wrong with connection");
+        } finally {
+            ((java.sql.Statement) statement).close();
+            connection.close();
+        }
+
 
         ArrayList<String> myList = new ArrayList<>();
 
