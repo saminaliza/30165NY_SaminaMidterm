@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/java.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingExamJuly2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodingExamJuly2019.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.41-bin.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/JavaSelfPractice" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -68,13 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
+    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codelab.status.*" />
+          <option name="PATTERN" value="databases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,13 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
+    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="codelab.status.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FortuneEmployee" />
       <item itemvalue="Application.CnnAPI" />
       <item itemvalue="Application.CsvReader" />
       <item itemvalue="TestNG.UnitTestingEmployeeInfo (1)" />
       <item itemvalue="Application.UseArrayList" />
+      <item itemvalue="Application.ConnectToSqlDB" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.CnnAPI" />
         <item itemvalue="TestNG.UnitTestingEmployeeInfo (1)" />
-        <item itemvalue="Application.FortuneEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -209,10 +212,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="262" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1366.728@0.0.1366.728" timestamp="1579201411647" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1579023979491">
+    <state x="437" y="79" key="DetectedRootsChooserDialog" timestamp="1579296876330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579023979491" />
+    <state x="437" y="79" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1579296876330" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1579296958709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579296958709" />
     <state width="1323" height="67" key="GridCell.Tab.0.bottom" timestamp="1579295990610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -245,6 +252,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1579156755501" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1579296969777">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579296969777" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1579288255411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -273,91 +284,5 @@
     <SUITE FILE_PATH="coverage/MidtermJuly2019$FortuneEmployee.ic" NAME="FortuneEmployee Coverage Results" MODIFIED="1579129167771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>design.*</FILTER>
     </SUITE>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>CodingExamJuly2019</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
