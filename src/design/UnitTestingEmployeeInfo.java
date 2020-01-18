@@ -17,13 +17,26 @@ public class UnitTestingEmployeeInfo {
 
         employeeInfo.setEmployeeName("John Doe");
         employeeInfo.setEmployeeId(001);
-        EmployeeInfo.setCompanyName("Google");
+        EmployeeInfo.setCompanyName("Apparel Inc");
+    }
+    @Test
+    public void testPositiveIsEmployeeOfTheMonth() {
+
+        System.out.println("Testing employeeName()");
+        assertEquals("John Doe", employeeInfo.isEmployeeOfTheMonth(100));
+    }
+
+    @Test
+    public void testNegativeIsEmployeeOfTheMonth() {
+
+        System.out.println("Testing employeeName()");
+        assertEquals("John Doe", employeeInfo.isEmployeeOfTheMonth(80));
     }
 
     @Test
     public void testEmployeeName() {
 
-        System.out.println("Testing employeeName()");
+        System.out.println("Testing EmployeeOfTheMonth()");
         assertEquals("John Doe", employeeInfo.employeeName());
     }
 
@@ -31,7 +44,7 @@ public class UnitTestingEmployeeInfo {
     public void testEmployeeId() {
 
         System.out.println("Testing employeeId()");
-        assertEquals(12345, employeeInfo.employeeId());
+        assertEquals(001, employeeInfo.employeeId());
     }
 
 
@@ -39,13 +52,13 @@ public class UnitTestingEmployeeInfo {
     public void testCompanyName() {
 
         System.out.println("Testing setCompanyName()");
-        assertEquals("Google", employeeInfo.getCompanyName());
+        assertEquals("Apparel Inc", employeeInfo.getCompanyName());
     }
 
-//    @Test
-//    public void testCalculateSalary() {
-//
-//        System.out.println("Testing calculateSalary()");
-//        assertEquals(120000, employeeInfo.calculateSalary());
-//    }
+    @Test
+    public void testCalculateSalary() {
+
+        System.out.println("Testing calculateSalary()");
+        assertEquals(120000, employeeInfo.calculateSalary());
+    }
 }

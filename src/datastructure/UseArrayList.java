@@ -42,7 +42,8 @@ public class UseArrayList {
         }
 
     }
-    public static void connectToMySQL () throws SQLException {
+
+    public static void connectToMySQL() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/midterm?serverTimezone=UTC";
         String user = "samin";
         String password = "sam10cked";
@@ -54,9 +55,11 @@ public class UseArrayList {
 
             statement = connection.createStatement();
 
-            String query = "insert into useArrayList (id, method_used, data_set, result_set) values (01, 'add', 'ArrayList<String> myList', 'str');";
-             statement.execute(query);
-            //statement.execute(query);
+            String query = "insert into useArrayList (id, method_used, data_set, result_set) values (01, 'add', 'myList', 'str');";
+            statement.execute(query);
+            String query2 = "insert into useArrayList (id, method_used, data_set, result_set) values (02, 'remove', 'myList', 'str');";
+            statement.execute(query2);
+
             System.out.println("query added");
 
         } catch (SQLException ex) {
