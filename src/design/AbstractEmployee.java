@@ -11,7 +11,7 @@ public abstract class AbstractEmployee implements Employee {
 
     public static boolean isEmployeeOfTheMonth(int performanceStar) {
 
-        if (performanceStar == 100) {
+        if (performanceStar == 5) {
             System.out.println("Eligible for Employee of the month award");
             return true;
         } else {
@@ -21,7 +21,7 @@ public abstract class AbstractEmployee implements Employee {
 
     }
 
-    public void gettingBonus(boolean annualSalesGoalCompleted) {
+    public void getAdditionalBonus(boolean annualSalesGoalCompleted) {
         if (annualSalesGoalCompleted == true) {
             System.out.println(employeeName() + "will get a bonus for completing annual sales goal");
         } else {
