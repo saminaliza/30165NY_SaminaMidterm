@@ -20,7 +20,11 @@ public class Student implements Serializable {
 		this.score = score;
 		this.id = id;
 	}
-	public String getFirstName() {
+
+    public Student(String firstName, String lastName) {
+    }
+
+    public String getFirstName() {
 		return firstName;
 	}
 

@@ -23,7 +23,7 @@ public class FortuneEmployee {
         System.out.println(employee2.getCOMPANY_ADDRESS());
 
         EmployeeInfo employee3 = new EmployeeInfo("Lily Smith", 003, "Marketing", 50000.99, 'F');
-        System.out.println(employee3.isEmployeeOfTheMonth(100));
+        employee3.isEmployeeOfTheMonth(100);
     }
 
 }

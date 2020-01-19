@@ -21,9 +21,15 @@ public abstract class AbstractEmployee implements Employee {
 
     }
 
-    public AbstractEmployee() {
-    }
+    public void gettingBonus(boolean annualSalesGoalCompleted) {
+        if (annualSalesGoalCompleted == true) {
+            System.out.println(employeeName() + "will get a bonus for completing annual sales goal");
+        } else {
+            System.out.println(employeeName() + " must complete the annual sales goal ");
+        }
 
+
+    }
 }
 
 

@@ -19,6 +19,7 @@ public class UnitTestingEmployeeInfo {
         employeeInfo.setEmployeeId(001);
         EmployeeInfo.setCompanyName("Apparel Inc");
     }
+
     @Test
     public void testPositiveIsEmployeeOfTheMonth() {
 

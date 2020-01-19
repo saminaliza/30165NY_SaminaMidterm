@@ -73,10 +73,10 @@ public class ProcessStudentInfo {
 					System.out.println("\n" + value.getKey() + " Students");
 					for (Student s : students) {
 						String id = s.getId();
-						String firstname = s.getFirstName();
-						String lastname = s.getLastName();
+						String firstName = s.getFirstName();
+						String lastName = s.getLastName();
 						String grade = s.getScore();
-						System.out.println("Students (id=" + id + ") '" + firstname + "'  '" + lastname + "'\t\t\tgrade= " + grade);
+						System.out.println("Students (id=" + id + ") '" + firstName + "'  '" + lastName + "'\t\t\tgrade= " + grade);
 					}
 				}
 
